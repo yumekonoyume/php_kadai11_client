@@ -1,0 +1,11 @@
+::placeholder {
+    color: #c5c3c3 !important; /* 薄いグレー */
+    opacity: 0.7 !important;   /* 透明度調整 */
+    font-style: italic !important; /* 斜体にして区別 */
+}
+
+
+h1 {
+    margin-top: 20px; /* ロゴとの間に余白 */
+    margin-bottom: 10px; /* メッセージとの間も少し広げる */
+}

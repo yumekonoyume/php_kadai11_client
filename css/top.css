@@ -1,0 +1,98 @@
+/* 背景と全体のスタイル */
+body {
+    background-color: #f5f9ef; /* 薄いグリーンの背景色 */
+    font-family: 'Kiwi Maru', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/* コンテナ内のスタイル */
+.container {
+    text-align: center;
+}
+
+/* ロゴのサイズ調整 */
+.logo {
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+/* メッセージのスタイル */
+.message {
+    font-size: 24px;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+/* カスタムボタンのスタイル */
+.btn-custom {
+    width: 250px;
+    margin: 10px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px; /* 少し丸みを帯びたボタン */
+    transition: background-color 0.3s, transform 0.2s; /* ホバー時のアニメーション */
+}
+
+/* ログインボタン（柔らかい青色） */
+.btn-primary {
+    background-color: #87ceeb; /* スカイブルー */
+    border-color: #87ceeb;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #6bbbd6; /* ホバー時の色 */
+    transform: scale(1.05); /* 少し拡大 */
+}
+
+/* 新規メンバー登録ボタン（柔らかい緑色） */
+.btn-success {
+    background-color: #b1ebb1; /* ペールグリーン */
+    border-color: #98fb98;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #7fdc7f; /* ホバー時の色 */
+    transform: scale(1.05); /* 少し拡大 */
+}
+
+/* ログアウトボタンのカスタムスタイル */
+.btn-custom-logout {
+    width: 250px;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f8b8c8; /* 柔らかいピンク */
+    border-color: #f8b8c8;
+    color: white;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-custom-logout:hover {
+    background-color: #f497af; /* ホバー時の濃いピンク */
+    transform: scale(1.05); /* 少し拡大 */
+}
+
+/* ログインフォーム全体の幅を調整 */
+.login-form {
+    max-width: 400px; /* フォーム全体の最大幅を指定 */
+    margin: 0 auto; /* 中央揃え */
+}
+
+/* 入力欄の幅を適切に調整 */
+.input-custom {
+    width: 100%; /* フォーム全体の幅に合わせる */
+    max-width: 350px; /* 入力欄の最大幅を指定 */
+    margin: 0 auto 15px auto; /* 下に余白を追加 */
+    padding: 10px; /* 内側に余白を追加 */
+    font-size: 16px; /* 文字を見やすくする */
+}
+
+
