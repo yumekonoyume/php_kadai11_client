@@ -24,7 +24,7 @@ $user_name = $_SESSION['user_name'];
     <div class="container">
         <img src="img/5.png" alt="DotsLab Logo" class="logo">
         <h1>ようこそ<br?= htmlspecialchars($user_name, ENT_QUOTES, 'UTF-8') ?>さん！</h1>
-        <h4>メンバー専用ページです<brおかえりなさい😊</h4>
+        <h4>メンバー専用ページです<br>おかえりなさい😊</h4>
         <a href="top.php" class="btn btn-custom-logout">ログアウト</a>
     </div>
 </body>

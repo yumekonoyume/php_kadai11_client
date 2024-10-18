@@ -14,7 +14,7 @@
     <div class="container">
         <img src="img/5.png" alt="DotsLab Logo" class="logo">
         <div class="message">
-            <p>一緒にイベントを<br成功させましょう！</p>
+            <p>一緒にイベントを<br>成功させましょう！</p>
         </div>
         <a href="login.php" class="btn btn-primary btn-custom">ログインはこちら</a>
         <a href="index.php" class="btn btn-success btn-custom">新規メンバー登録はこちら</a>
